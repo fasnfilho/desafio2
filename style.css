@@ -320,22 +320,9 @@ html{
 .cor3{
     color: #feb300;
 }
-.fonte1{
-    font-family: 'Roboto', sans-serif;
+.fonte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
-}
-.fonte2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-.fonte3{
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-}
-.fonte4{
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    font-style: italic;
 }
 
 /* RESPONSIVIDADE */
