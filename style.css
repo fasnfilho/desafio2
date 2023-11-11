@@ -1,4 +1,49 @@
 /* BANNER */
+.content{
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.content .images{
+    height: 100%;
+    width: 100%;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.content .slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.content .slide:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.slide span{
+    font-size: 35px;
+    color: white;
+    line-height: 40px;
+}
+
+.content .right{
+    right: 0;
+}
 
 header{
     background: url(https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg);
